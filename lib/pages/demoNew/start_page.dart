@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:study_demo/pages/demoNew/movie_container.dart';
-import 'package:study_demo/pages/demoNew/sliding_container.dart';
 
 class Start extends StatefulWidget {
   const Start({super.key});

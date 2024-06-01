@@ -26,11 +26,8 @@ import 'package:study_demo/pages/demo/a.dart';
 import 'package:study_demo/pages/demo/b.dart';
 import 'package:study_demo/pages/demo/button_page.dart';
 import 'package:study_demo/pages/demo/changeNotifier_page.dart';
-<<<<<<< HEAD
 import 'package:study_demo/pages/demo/custom.dart';
-=======
 import 'package:study_demo/pages/demo/code_qr.dart';
->>>>>>> e43e79563febfc2aac2850fa78b569bd087de8fb
 import 'package:study_demo/pages/demo/drag_page.dart';
 import 'package:study_demo/pages/demo/dropdownMenu_page.dart';
 import 'package:study_demo/pages/demo/group_qr.dart';
@@ -74,10 +71,8 @@ class FramePage extends StatelessWidget {
             const SizedBox(height: 20),
             getItem("UI分享", const WebPage()),
             const SizedBox(height: 20),
-<<<<<<< HEAD
             getItem("滚动视差效果", const Start()),
             const SizedBox(height: 20),
-=======
             getItem("1", TreeViewPage()),
             const SizedBox(height: 20),
             getItem("WebViewPage", const WebViewPage()),
@@ -91,7 +86,6 @@ class FramePage extends StatelessWidget {
                 )),
             const SizedBox(height: 20),
             getItem("SliverPage", const SliverPage()),
->>>>>>> e43e79563febfc2aac2850fa78b569bd087de8fb
             const SizedBox(height: 100),
           ],
         ),
@@ -109,14 +103,11 @@ class FramePage extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(10),
         children: [
-<<<<<<< HEAD
           getItem("自定义绘制Custom", const CustomPage()),
           const SizedBox(height: 20),
           getItem("边框流光炫彩", const MyWidget1()),
           const SizedBox(height: 20),
-=======
           getItem("HomePage11", const SelfHomePage()),
->>>>>>> e43e79563febfc2aac2850fa78b569bd087de8fb
           getItem("输入框-自动提示", const AutoCompletePage()),
           const SizedBox(height: 20),
           getItem("放大镜", const MagnifierPage()),
